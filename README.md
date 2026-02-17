@@ -59,7 +59,7 @@ tfm-clv-ecommerce/
 
 ## Metodología
 
-El análisis sigue un pipeline secuencial de 8 fases:
+El análisis sigue un pipeline secuencial de 10 fases:
 
 ### 1. Análisis Exploratorio (EDA)
 - Dataset: **Online Retail II** (UCI ML Repository) — transacciones reales de un retailer UK (2009-2011)
@@ -100,6 +100,25 @@ El análisis sigue un pipeline secuencial de 8 fases:
 - Análisis de sensibilidad del umbral
 - Distribución del riesgo por segmento
 - Identificación de clientes en riesgo para acciones de retención
+
+### 8. Validación de la Segmentación y Convergencia de Modelos
+- Cruce de la segmentación KMeans con las métricas probabilísticas (P(alive), CLV)
+- Validación de coherencia: los segmentos reflejan perfiles de riesgo diferenciados
+- Análisis de distribución de P(alive) por segmento (KDE)
+- Convergencia entre enfoque no supervisado (clustering) y supervisado (modelos probabilísticos)
+
+### 9. Propuesta de Producción
+- Arquitectura propuesta para despliegue en entorno productivo
+- Pipeline de datos: ingesta, transformación RFM, scoring con modelos entrenados
+- Dashboard interactivo como herramienta de monitorización y toma de decisiones
+- Serialización de modelos con joblib para portabilidad entre entornos
+- Despliegue en Streamlit Community Cloud como prueba de concepto
+
+### 10. Conclusiones
+- **Resultados principales**: cuantificación del CLV por segmento, identificación de clientes en riesgo y validación cruzada de modelos
+- **Implicaciones de negocio**: priorización de retención, alertas tempranas de abandono y asignación eficiente de recursos
+- **Limitaciones del estudio**: alcance del dataset, supuestos de los modelos probabilísticos, umbral estático de P(alive)
+- **Líneas futuras de trabajo**: incorporación de covariables, modelos de deep learning, validación rolling-window y experimentación causal
 
 ---
 
