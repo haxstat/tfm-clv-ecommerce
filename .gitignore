@@ -1,0 +1,28 @@
+# ─── Datos originales (demasiado pesados para GitHub) ───
+online_retail_II.xlsx
+online_retail_II.xlsb
+online_retail_II.csv
+online_retail_completo.csv
+muestra_datos.csv
+nul
+
+# ─── Python ───
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# ─── Entorno ───
+.env
+*.env
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+
+# ─── Copia del dashboard en _py/ (el principal esta en la raiz) ───
+_py/
+
+# ─── Claude Code ───
+.claude/

@@ -1,0 +1,5 @@
+cluster,CLV_promedio,CLV_mediana,CLV_total,N_clientes,Freq_promedio,Recency_promedio,T_promedio,Valor_promedio,cluster_label
+0,325.07,247.17,201216.04,619,0.94,100.28,262.11,129.21,Cluster 0: Occasional
+1,103.14,0.0,169658.65,1645,0.31,38.53,283.4,51.09,Cluster 1: Lost
+2,4205.99,2131.76,4807445.14,1143,10.27,352.27,412.19,523.15,Cluster 2: Premium
+3,923.76,732.58,1307122.17,1415,2.87,222.38,364.54,400.9,Cluster 3: Potential

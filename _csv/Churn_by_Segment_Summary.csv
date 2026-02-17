@@ -1,0 +1,9 @@
+segment,churn_label,clv_mean,clv_sum,clv_count,p_alive_mean,p_alive_std,frequency_cal_mean,recency_cal_mean
+Lost,Activo,91.72,139780.44,1524,0.97,0.07,0.25,38.24
+Lost,Churned,246.93,29878.21,121,0.57,0.11,1.12,42.26
+Occasional,Activo,325.3,189324.92,582,0.95,0.08,0.92,104.32
+Occasional,Churned,321.38,11891.12,37,0.59,0.12,1.16,36.65
+Potential,Activo,958.8,1255063.55,1309,0.94,0.07,2.88,234.22
+Potential,Churned,491.12,52058.62,106,0.53,0.16,2.7,76.18
+Premium,Activo,4225.34,4753504.99,1125,0.98,0.04,10.26,355.4
+Premium,Churned,2996.67,53940.14,18,0.42,0.26,11.11,156.61
