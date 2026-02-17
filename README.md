@@ -31,6 +31,7 @@ tfm-clv-ecommerce/
 |-- app_clv_dashboard.py          # Dashboard interactivo (Streamlit)
 |-- requirements.txt              # Dependencias Python
 |-- _TFM_cesargonzalezfranco.ipynb # Notebook con el análisis completo
+|-- _TFM_cesargonzalezfranco.pdf # Documento completo con conclusiones de negocio.
 |
 |-- _csv/                         # Datasets generados
 |   |-- CLV_Churn_by_Customer.csv    # Dataset principal (4,822 clientes)
