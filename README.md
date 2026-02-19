@@ -191,7 +191,14 @@ streamlit run app_clv_dashboard.py
 El dashboard estará disponible en `http://localhost:8501`
 
 ### Notebook
-Para ejecutar el notebook de análisis completo, se necesita adicionalmente el dataset original `online_retail_II.xlsx` (no incluido en el repositorio por su tamaño). Disponible en el [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii).
+Para ejecutar el notebook de análisis completo, se necesita el dataset original (no incluido en el repositorio por su tamaño):
+
+1. Descargar `online_retail_II.xlsx` desde el [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
+2. Colocar el archivo en la raíz del repositorio
+3. En la primera celda del notebook, actualizar la variable `file_path` con la ruta al archivo:
+   ```python
+   file_path = r"online_retail_II.xlsx"  # o tu ruta local
+   ```
 
 ---
 
