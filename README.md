@@ -21,6 +21,12 @@ El estudio combina segmentación no supervisada (KMeans), modelos probabilístic
 
 **[Abrir Dashboard](https://tfm-clv-ecommerce.streamlit.app/)**
 
+### Video Presentación de TFM
+
+**[Abrir Video en Youtube](https://tfm-clv-ecommerce.streamlit.app/](https://youtu.be/-g_SaEyMr74)**
+
+
+
 ---
 
 ## Estructura del Repositorio
