@@ -23,7 +23,7 @@ El estudio combina segmentación no supervisada (KMeans), modelos probabilístic
 
 ### Video Presentación de TFM
 
-**[Abrir Video en Youtube]([https://tfm-clv-ecommerce.streamlit.app/](https://youtu.be/-g_SaEyMr74))**
+**[Abrir Video en YouTube](https://www.youtube.com/watch?v=-g_SaEyMr74)**
 
 ---
 
